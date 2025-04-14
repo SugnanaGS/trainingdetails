@@ -10,3 +10,7 @@ git push -u origin main
 git remote add origin https://github.com/SugnanaGS/remove.git
 git branch -M main
 git push -u origin main
+
+
+username for 'https://github.com' : 
+password for 'https://SugnanaGS@github.com'
