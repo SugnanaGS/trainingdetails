@@ -15,7 +15,19 @@ git push -u origin main
 username for 'https://github.com' : 
 password for 'https://SugnanaGS@github.com'
 
-Demos List
+****************************Demos List Day-1****************************************
+1) Free Style Project
+2) Free Style Project with simple Java program
+3) 
+****************************Demos List Day-2****************************************
+
+****************************Demos List Day-3****************************************
+Using Blue Ocean for Junkins flow
+****************************Demos List Day-4****************************************
+****************************Demos List Day-5****************************************
+****************************Demos List Day-6****************************************
+****************************Demos List Day-7****************************************
+
 ***************************************************Diptendu Day1 TOC**************************************************************************************************
 ***************************************************Diptendu Day2 TOC**************************************************************************************************
 ***************************************************Diptendu Day3 TOC**************************************************************************************************
@@ -25,6 +37,33 @@ Demos List
 4) Pipeline using Post Build Actions
 5) Introduction to Build tools
 6) Discussion on a maven Project integration
+
+Build Trigger
+- Perodic build - corntab kind of schedule
+- Manual
+- Poll SCM - as per schedule Jenkins will check the SCM
+- WebHook - any new code commited SCM will trigger build
+- Build based on another job build
+
+J1->J2->J3
+  Using Build Trigger
+  Using Post Actions
+  Using Pipeline viewer - Configure plug-in
+  Blue Ocean - Configure plug-in
+
+
+//00:25 Using script for ignoring files using batch/shell scripts demo
+filesToBeAdded.txt
+x1.java
+x2.java
+....
+xN.java
+
+for i in `cat filesToNeAdded.txt`
+do
+  git add $i
+done
+git commit -"message"
 
 ***************************************************Diptendu Day4 TOC**************************************************************************************************
 ***************************************************Diptendu Day5 TOC**************************************************************************************************
